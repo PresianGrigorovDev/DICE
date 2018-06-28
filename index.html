@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+    <meta charset="UTF-8">
+    <title>DICE</title>
+</head>
+
+<body>
+    
+    
+<div class="foreground">
+    
+<div class="wrapper clearfix">
+    <div class="player-1-panel active">
+        <div class="player-name" id="name-0">Player I</div>
+        <div class="player-score" id="score-0">17</div>
+        <div class="player-current-box">
+            <div class="player-current-label">Current</div>
+            <div class="player-current-score" id="current-0">11</div>
+        </div>
+    </div>
+
+    <div class="player-2-panel">
+        <div class="player-name" id="name-1">Player II</div>
+        <div class="player-score" id="score-1">32</div>
+        <div class="player-current-box">
+            <div class="player-current-label">Current</div>
+            <div class="player-current-score" id="current-1">0</div>
+        </div>
+    </div>
+
+    
+    <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+    <button class="btn-roll"><i class="ion-ios-loop"></i>Roll</button>
+    <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+    
+    <p class="DICE">Dice</p>
+    
+    
+    <div class="winner_div" >
+        <p id="winner_id" class="winner_name">Player</p>
+        <p class="winner_text">WINS</p>
+    </div>
+    
+    <img src="images/dice-5.png" alt="Dice" class="dice">
+</div>
+
+        
+</div>
+     <button class="btn-info-exit" onclick="togle.info++" ><i class="ion-ios-close-outline"></i></button>
+    <button class="btn-info" onclick="info()"><i class="ion-ios-help-outline"></i>Info</button>
+   
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://unpkg.com/sweetalert2@7.20.1/dist/sweetalert2.all.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
